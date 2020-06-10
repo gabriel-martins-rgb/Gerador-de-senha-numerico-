@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --border-color:#161616;
+   --second-border-color:#00b469;
+}
+.content{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 450px auto;
+}
+.content #buttonGenerator{
+    background-color: var(--second-border-color);
+    color: white;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    font-family: sans-serif;
+    border: 0;
+    border-radius: 8px;
+    outline: none;
+
+}
